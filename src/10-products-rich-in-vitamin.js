@@ -6,16 +6,15 @@ const getProductsRichInVitamin = () => {
     if (stockProducts[index].nutritionalInfo.vitamins !== undefined) {
       let formattedPrice = `R$ ${stockProducts[index].price.toFixed(2)}`;
       let formattedVitamins = stockProducts[index].nutritionalInfo.vitamins.map(
-        ([key, value]) => `${key} - ${value}`
-      );
+        ([key, value]) => `${key} - ${value}`);
       let nutritionalInfoVitamins = Object.entries(formattedVitamins);
       productsRichInVitamin.push({
         description: stockProducts[index].description,
         formattedPrice: formattedPrice,
-        vitaminsInformation: nutritionalInfoVitamins
+        vitaminsInformation: nutritionalInfoVitamins,
       });
-    }
-  }
+    };
+  };
   return productsRichInVitamin;
 };
 
