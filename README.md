@@ -1,4 +1,4 @@
-# Projeto de Gestão de Estoque do Supermercado Pirilampo
+# Projeto Supermercado Pirilampo
 
 Este projeto é um sistema de gestão de estoque para o Supermercado Pirilampo. O objetivo é fornecer à Dona Filó, a proprietária do supermercado, uma visão clara e precisa do estoque de seu estabelecimento. O sistema permite gerenciar a variedade de mercadorias, visualizar produtos únicos, produtos indisponíveis, produtos com baixo estoque e o total de produtos em estoque.
 
